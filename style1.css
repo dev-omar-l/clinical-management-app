@@ -1,0 +1,404 @@
+/*
+dev-omar-l, 2022.
+*/
+
+
+*{
+      padding: 0px;
+      margin: 0px;
+      box-sizing:border-box;
+    }
+
+a {
+      text-decoration: none;
+    }
+
+a,#pied_page {
+      color:#C4DEE6;
+    }
+
+
+    
+body {
+      font-family: 'Open Sans', sans-serif;
+      background-color:#F1F7F9;
+      padding-left:1px;
+      padding-right:1px;
+      width:100%;
+      margin:auto;
+    }
+
+/* Tout ce qui est au milieu du body */
+#wrapper {
+  background-color:white;
+  overflow-x:hidden;
+  width:100%;
+  margin:auto;
+  padding-left:9px;
+  padding-right:9px;
+  border-radius:3px
+}
+
+    #banner {
+      background-color: #0596DE;
+      border-radius:1px;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+
+h2 {
+  font-weight:700;
+  color: #676767;
+  margin-top:30px;
+  font-size: 1.5em;
+
+}
+
+h3 {
+  color:#3F8BC9;
+  font-weight:600;
+  font-size:1.3em;
+
+}
+
+#titre1{
+  color:#616161;
+  font-size:1.05em;
+}
+
+#titre2{
+  margin-bottom:25px;
+}
+
+
+#titre4{
+  color:#55B577;
+}
+
+input {
+  height:30px;
+  width:90%;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #337AB7;
+    border:1px solid #337AB7;
+}
+input:focus:hover {
+    outline: none;
+    box-shadow: 0px 0px 5px #337AB7;
+    border:1px solid #337AB7;
+    border-radius:0;
+}
+
+
+#website_logo {
+      font-size:3.7em;
+      color:white;
+      font-weight:700;
+    }
+
+#website_logo:hover {
+      color:#E1EEF2;
+    }
+
+#res_social{
+    width:30px;
+  }
+    
+#menu_button {
+      background-color:#337AB7; 
+      color:white;
+      border-radius:3px;
+      border:0px;
+      padding:3px;
+      margin:0px;
+    }
+
+#menu_button:hover {
+      background-color:#579AD0; 
+    }
+
+#menu_button2 {
+      background-color:#DD0000; 
+      color:white;
+      border-radius:3px;
+      border:0px;
+      padding:3px;
+      margin:0px;
+    }
+
+#menu_button2:hover {
+      background-color:#B70000; 
+    }
+
+
+#menu_barre{
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-color:#337AB7;
+      border-radius:1px;
+    }
+
+#button_action {
+      background-color:#579AD0; 
+      color:white;
+      border-radius:3px;
+      border:0px;
+      padding:3px;
+      margin:0px;
+      margin-top:6px;
+    }
+
+#button_action:hover {
+      background-color:#347CB8; 
+    }
+
+#button_action2 {
+      background-color:#4CAF50; 
+      color:white;
+      border-radius:3px;
+      border:0px;
+      padding:3px;
+      margin:0px;
+    }
+
+#button_action2:hover {
+      background-color:#65BC69; 
+    }
+
+#button_action3 {
+      background-color:#F12539;
+      color:white;
+      border-radius:3px;
+      border:0px;
+      padding:3px;
+      margin-top:3px;
+    }
+
+#button_action3:hover {
+      background-color:#C80D20; 
+    }
+
+#button_action4 {
+      background-color:#55B577;
+      color:white;
+      border-radius:3px;
+      border:0px;
+      padding:3px;
+      margin-top:3px;
+    }
+
+#button_action4:hover {
+      background-color:#439A62; 
+    }
+
+#button_action5 {
+      background-color:#DD0000; 
+      color:white;
+      border-radius:3px;
+      border:0px;
+      padding:3px;
+      margin:0px;
+    }
+
+#button_action5:hover {
+      background-color:#B70000; 
+    }
+
+#button_action6 {
+      background-color:#337AB7; 
+      color:white;
+      border-radius:3px;
+      border:0px;
+      padding:3px;
+      margin:0px;
+    }
+
+#button_action6:hover {
+      background-color:#2F71A6; 
+    }
+
+#pied_page{
+      background-color:#2B6697;
+      border-radius:1px;
+      color:#E1EEF2;
+      font-size:0.7em;
+    }
+
+#text_expand1 {
+      margin-bottom:10px;
+      margin-top:15px;
+      width:40%;
+    }
+
+#table-responsive {
+      font-size:0.8em;
+}
+
+.dataTables_paginate {
+                  color:grey;
+}
+.paginate_button{
+      color:grey;
+      font-weight:700;
+      margin-left:5px;
+      margin-right:5px;
+}
+.paginate_button{
+      color:grey;
+      font-weight:700;
+      margin-left:5px;
+      margin-right:5px;
+}
+
+.paginate_button:hover{
+      color:silver;
+      cursor:pointer;
+}
+
+
+/* ----------------------- MEDIA QUERIES -------------------------------
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+      body{
+    font-size: 1em;
+  }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+      body{
+    font-size: 1em;
+  }
+   #text_expand1 {
+      width:75%;
+  }
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+      body{
+    font-size: 1.1em;
+    background-color:white;
+  }
+
+  #website_logo {
+      font-size:3em;
+      color:white;
+      font-weight:700;
+    }
+      #menu_barre{
+        justify-content: space-around;
+      }
+
+      #menu_button{
+        text-align: center;
+        width:100%;
+        margin-top:5px;
+        font-size:0.8em;
+
+      }
+       #menu_button2{
+        text-align: center;
+        width:100%;
+        margin-top:5px;
+        font-size:0.8em;
+      }
+
+      .row,#menu_barre{
+        width:50%
+        margin-bottom:40px;
+      }
+      #text_expand1 {
+      width:95%;
+      }
+
+      h2 {
+        font-size:1.3em;
+      }
+       h3 {
+        font-size:1.0em;
+      }
+
+  #menu_button:hover {
+      background-color:#337AB7;
+      color: #79B3C6;
+      font-size:0.8em;
+    }
+  #pied_page{
+        display:none;
+      }
+
+  #menu_button{
+    height:50px;
+    margin-bottom:2px;
+  }
+  #menu_button2{
+    height:40px;
+  }
+
+#button_action5 {
+    font-size: 0.9em;
+    }
+}
+
+
+
+
+}
+
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+      body{
+    font-size: 1.15em;
+    width:360px;
+    height:1000px;
+  }
+
+
+
+  #text_expand1 {
+      width:100%;
+  }
+
+
+}
+
+/* Tiny Thin Displays */
+@media (max-width: 350px) { 
+      body{
+    font-size: 1em;
+    width:360px;
+    height:1000px;
+  }
+
+
+  #text_expand1 {
+      width:100%;
+  }
+
+  #res_social{
+    display:none;
+  }
+
+  #menu_button{
+    height:55px;
+  }
+  #menu_button2{
+    height:55px;
+  }
+
+}
