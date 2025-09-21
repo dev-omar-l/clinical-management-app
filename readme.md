@@ -1,5 +1,4 @@
 Academic Project: Web Application for the Management of a Clinical "GCM"
--17/06/2022
 
 • Technologies:
 HTML, CSS, PHP, JavaScript, MySQL, jQuery, Bootstrap, DataTables.
@@ -35,3 +34,5 @@ Adding staff
 
 Patients appointment date checking
 <img src="./preview/rdv_date_patient_pv.png">
+
+-17/06/2022
